@@ -1,0 +1,50 @@
+body{
+    font-family: 'Barlow', sans-serif;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.titulo-principal {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.titulo-secundario {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px 0;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+tr, td, th{
+    border: 1px solid black;
+}
+
+form {
+    width: 310px;
+    margin: 10px auto;
+    padding: 5px 0;
+}
+
+input{
+    width: 250px;
+}
+
+#btnApurarVotos, #btnLimpar {
+    display: block;
+    margin: 10px auto;
+    padding: 5px 0;
+}
+
+.resultados {
+    display: none;
+}
+
+.vencedor {
+    font-weight: bold;
+    text-align: center;
+}
